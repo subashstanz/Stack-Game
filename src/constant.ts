@@ -1,0 +1,12 @@
+
+const BLOCK_HEIGHT = 2.5;
+
+export const gameConstants = {
+    STACK_ROTATION_SPEED: 0.004,
+    SPAWN_OFFSET: 6,
+    SPEED: 0.1,
+    BLOCK_HEIGHT: BLOCK_HEIGHT,
+    INITIAL_BLOCK_SIZE: [4, BLOCK_HEIGHT, 4],
+    INITIAL_BLOCK_POS: { x: 0, y: 0, z: 0 },
+    INITIAL_SCENE_POS_Y: -1
+}
