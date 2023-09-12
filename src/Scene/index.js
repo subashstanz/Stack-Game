@@ -7,8 +7,6 @@ import {
   Billboard,
   Html,
 } from "@react-three/drei";
-// import { InfoCircleOutlined } from "@ant-design/icons";
-// import { Button } from "antd"
 import Stacks from "../Stacks";
 
 const Scene = ({ gameOver, setGameOver, score, setScore, canvasRef }) => {
